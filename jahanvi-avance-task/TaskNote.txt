@@ -1,0 +1,19 @@
+Common Instructions:
+=====================
+1.Develop given design using html,css,bootstrap and run code using xampp
+2.make mobile responsive of given design
+
+Folder structure
+===============
+Create Repository in ur github commit ur code
+1.create a file with name index.html(landing page code)
+2.create assets folder inside that create images folder ->Keep images inside of images folder
+
+
+
+ColorCode
+========
+#100848-darkblue
+#1B00A7-liteblue
+#00D3FF-testimonial blue
+#00D3FF-lineargradient-button-first-section

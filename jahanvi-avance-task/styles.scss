@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    height: 92px;
+    background-color: #100848;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 48px;
+
+    .logo {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .main__navigation {
+        color: #ccc;
+        font-size: 1.2rem;
+
+        .main__navigation-list {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .main__navigation-list__list-item {
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+.landing {
+    height: calc(100vh - 92px);
+
+    .landing__content {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: #fff;
+        padding: 0 48px;
+        text-align: left;
+        }
+ 
+   
+
+    .landing__background {
+        position: absolute;
+        height: calc(100% - 92px);
+        width: 100%;
+        background-color: #100848;
+        overflow: hidden;
+        z-index: -1;
+
+        .landing__background__hero {
+            background: url('./assets/images/hero.svg');
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .landing__background__lap-person {
+            background: url('./assets/images/person-lap.svg');
+            height: 100%;
+            width: 50%;
+            position: absolute;
+            right: -3%;
+            bottom: 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+}
+
+.feature{
+    height: calc(100vh - 92px);
+
+    .feature__background {
+        background: url('./assets/images/feature-bg.svg');
+        position: absolute;
+        height: calc(100% - 92px);
+        width: 100%;
+        background-color: #100848;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+}
+
